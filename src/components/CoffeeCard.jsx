@@ -6,11 +6,11 @@ import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css";
 
 const CoffeeCard = ({ coffee,coffeeDatas,setCoffeeData }) => {
-  const { _id, name, photo, chef, details, category, prices } =
+  const { _id, name, photo, chef,  prices } =
     coffee;
 
   const handleDelete = (_id) => {
-    console.log(_id); 
+    console.log(_id);  
     Swal.fire({
       title: "Are you sure?",
       text: "You won't be able to revert this!",
