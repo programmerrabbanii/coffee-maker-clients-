@@ -2,6 +2,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import BannarBottom from "../components/BannarBottom";
 import CoffeeCard from "../components/CoffeeCard";
 import { useState } from "react";
+import Gallary from "../components/Gallary";
 
 const Home = () => {
   const loadedCoffees = useLoaderData();
@@ -20,6 +21,7 @@ const Home = () => {
           <CoffeeCard key={coffee._d} coffee={coffee} coffeeDatas={coffeeDatas} setCoffeeData={setCoffeeData}></CoffeeCard>
         ))}
       </div>
+      <Gallary></Gallary>
     </div>
   );
 };
