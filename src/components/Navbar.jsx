@@ -17,9 +17,9 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-gradient-to-r from-[#b8926b] to-[#6b4226] text-white">
+    <div className="navbar bg-gradient-to-r from-[#b8926b] to-[#6b4226] text-white sticky top-0 z-10">
       <div className="navbar-start">
-        {/* Dropdown for mobile */}
+        {/* Dropdown for mobile */} 
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg

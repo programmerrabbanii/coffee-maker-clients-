@@ -22,7 +22,7 @@ const Bannar = () => {
             <p className="mb-5">
               It's coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!! Your companion of every moment!!! Enjoy the beautiful moments and make them memorable.
             </p>
-            <Link to='/addcoffe'><button className="btn btn-primary">Add Coffee</button>
+            <Link to='/addcoffe'><button className="btn btn-primary ">Add Coffee</button>
             </Link>
           </div>
         </div>
