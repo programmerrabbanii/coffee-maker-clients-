@@ -12,7 +12,7 @@ const Gallary = () => {
     return (
         <div className='mt-10 w-11/12 mx-auto mb-10'>
             <h3 className='text-center text-3xl font-semibold '>See Our New Coffees Collection Here Bara..</h3>
-            <p className='text-center'>If you have a girlfriend, you get a 50% discount on this bara.. </p>
+            <p className='text-center mb-8'>If you have a girlfriend, you get a 50% discount on this bara.. </p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
                 <div>
                    <img src={coffee1} alt="" />
